@@ -7,7 +7,7 @@ It has the following features:
 - No Logs
 - Automatic VerCode Update
 - Change Telegram to Discord Webhook
-- Region JP and NA 
+- Region JP and NA
 
 # Extract your auth data
 You need to extract your authentication data to do this.
