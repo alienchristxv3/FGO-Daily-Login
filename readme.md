@@ -39,6 +39,9 @@ you should configure all cron after update of VerCode Extractor Repository!
 | NA     | 15 10 * * * | 30 10 * * * |
 | JP     | 15 19 * * * | 30 19 * * * |
 
+Is not necesary fork the repo of verCode but if you want
+you must change endpoint in main.py in the function `get_latest_verCode`
+
 # Secrets
 Add this enviroment variables into `Repository > settings > secrets > actions`
 | Secret | Example |
@@ -51,7 +54,8 @@ Add this enviroment variables into `Repository > settings > secrets > actions`
 | DISCORD_WEBHOOK | https://discord.com/api/webhooks/randomNumber/randomString |
 
 # Road Map
-- [ ] Perform Daily Friend Point Summons
+- [x] Perform Daily Friend Point Summons
+- [ ] Claim all Saint Quartz and Tickets from gif box 
 
 # Acknowledgments 
 - [hexstr](https://github.com/hexstr) author of FGO Daily Bonus
