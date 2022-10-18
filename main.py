@@ -30,9 +30,9 @@ def get_latest_verCode():
     endpoint = ""
 
     if fate_region == "NA":
-        endpoint += "https://raw.githubusercontent.com/O-Isaac/FGO-VerCode-extractor/NA/VerCode.json"
+        endpoint += "https://raw.githubusercontent.com/MaxAkito/FGODailyBonusLogNA/main/cfg.json"
     else:
-        endpoint += "https://raw.githubusercontent.com/O-Isaac/FGO-VerCode-extractor/JP/VerCode.json"
+        endpoint += "https://raw.githubusercontent.com/MaxAkito/FGODailyBonusLogNA/main/cfg.json"
 
     response = requests.get(endpoint).text
     response_data = json.loads(response)
