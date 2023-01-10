@@ -24,7 +24,7 @@ on:
     - cron: "30 23 * * *"
     - cron: "50 23 * * *"
     - cron: "30 00 * * *"
-workflow dispatch:
+  workflow dispatch:
 
 jobs:
   build:
