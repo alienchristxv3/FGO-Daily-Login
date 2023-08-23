@@ -33,12 +33,13 @@ jobs:
       matrix:
         python-version: [3.8]
 
+
     steps:
       - name: Install Requeriments
         run: pip install -r https://raw.githubusercontent.com/alienchristxv3/FGO-Daily-Login/master/requirements.txt
 
       - name: Gettings files from Repo
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
 
       - name: Execute main script
         run: |
