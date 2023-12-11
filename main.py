@@ -4,7 +4,7 @@ import requests
 import time
 import json
 import fgourl
-import user
+import user import user
 import coloredlogs
 import logging
 
