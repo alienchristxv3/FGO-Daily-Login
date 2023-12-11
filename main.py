@@ -2,9 +2,10 @@ import os
 import traceback
 import requests
 import time
+import mytime
 import json
 import fgourl
-import user import user
+from user import user
 import coloredlogs
 import logging
 
