@@ -5,7 +5,7 @@ import time
 import mytime
 import json
 import fgourl
-from user import user
+import user
 import coloredlogs
 import logging
 
